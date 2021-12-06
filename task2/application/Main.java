@@ -1,9 +1,15 @@
 package application;
 
-import view.Console;
+
+import model.Child;
+
+import view.ConsoleXmas;
 
 public class Main {
 	public static void main(String[] args) {
-		new Console().dialog();
+
+		ConsoleXmas run =new ConsoleXmas();
+		run.dialog();
+
 	}
 }
