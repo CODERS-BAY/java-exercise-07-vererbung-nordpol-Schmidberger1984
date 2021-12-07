@@ -1,9 +1,20 @@
 package model;
 
 public class Presents {
+	private String PresentsName;
 
-	public Presents() {
-		// TODO Auto-generated constructor stub
+	public String getPresentsName() {
+		return PresentsName;
 	}
 
+	public void setPresentsName(String presentsName) {
+		PresentsName = presentsName;
+	}
+
+	public Presents(String presentsName) {
+		PresentsName = presentsName;
+	}
+	public Presents(){
+
+	}
 }
